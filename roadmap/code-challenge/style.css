@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body{
+	font-family:  'Montserrat', sans-serif;
+	background-color: #051937;
+	color: white;
+	margin: 30px;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+
+.carousel-item{
+	padding: 3% 9%;
+}
+
