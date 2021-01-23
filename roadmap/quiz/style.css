@@ -3,6 +3,7 @@
 body {
     font-family:  'Montserrat', sans-serif;
     margin-top: 40px;
+    padding: 20px;
 }
 
 h1 {
@@ -74,3 +75,9 @@ ul {
     display:none;
     width: 90px;
 }
+
+.btn, .btn:hover{
+    background-color: #051937;
+    margin-top: 80px;
+    
+    }
