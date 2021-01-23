@@ -241,6 +241,11 @@ a {
   margin: 0;
 }
 
+a:hover{
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
 /*Features*/
 #features {
   padding: 6% 12%;

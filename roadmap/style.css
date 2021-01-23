@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /*font: normal 16px/1.5 "Helvetica Neue", sans-serif;*/
+  font-family:  'Montserrat', sans-serif;
+  background: #f6f5f7;
+  color: #fff;
+  overflow-x: hidden;
+  padding-bottom: 50px;
+}  
+
+/*Intro head*/
+.intro {
+  background-color: #051937;
+  padding: 70px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+/*Roadmap*/
+.roadmap ul {
+  background: #f6f5f7;
+  padding: 50px 0;
+}
+
+.roadmap ul li {
+  list-style-type: none;
+  position: relative;
+  width: 6px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: black;
+}
+
+.roadmap ul li::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: inherit;
+}
+
+.roadmap ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 25px;
+  background: #051937;
+  border-radius: 25px;
+}
+
+.roadmap ul li:nth-child(odd) div {
+  left: 45px;
+}
+
+.roadmap ul li:nth-child(even) div {
+  left: -439px;
+}
+
+time {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+/* Animation */
+.roadmap ul li::after {
+  transition: background .5s ease-in-out;
+}
+
+.roadmap ul li.in-view::after {
+  background: #051937;
+}
+
+.roadmap ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.roadmap ul li:nth-child(odd) div {
+  transform: translate3d(200px, 0, 0);
+}
+
+.roadmap ul li:nth-child(even) div {
+  transform: translate3d(-200px, 0, 0);
+}
+
+.roadmap ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+/*Resizing*/
+@media screen and (max-width: 1000px) {
+  .roadmap ul li div {
+    width: 250px;
+  }
+  .roadmap ul li:nth-child(even) div {
+    left: -289px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .roadmap ul li {
+    margin-left: 20px;
+  }
+  .roadmap ul li div {
+    width: calc(100vw - 91px);
+  }
+  .roadmap ul li:nth-child(even) div {
+    left: 45px;
+}
