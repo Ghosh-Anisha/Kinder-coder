@@ -1,0 +1,73 @@
+
+
+var options = {
+				   solution: 			[[null,  null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,   null,   null,   null,    'D',   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,   null,    'P',    'R',    'O',    'M',    'P',    'T',   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,   null,   null,   null,    'W',   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				  					 	[null,   null,   null,   null,   null,   null,    'H',   null,   null,   null,   null,    'L',   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,   null,    'T',    'H',    'I',    'R',    'T',    'Y',    'F',    'O',    'U',    'R',   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,   null,   null,   null,    'L',   null,    'W',   null,   null,    'G',   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,    'C',    'O',    'D',    'E',   null,    'E',   null,   null,    'I',    'N',    'P',    'U',    'T',   null,   null,   null,   null],
+				   						[null,   null,   null,    'O',   null,    'E',   null,   null,    'N',   null,   null,    'C',   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,    'N',   null,    'F',   null,   null,    'T',    'E',    'N',   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,    'D',   null,   null,   null,   null,    'Y',   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,    'I',   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,    'T',   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,    'I',   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,    'O',   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,    'N',   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,    'A',   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,    'L',   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+				   						[null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null]],
+
+
+		            index: 				[[null,  null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,      1,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,      2,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,      7,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,      3,   null,   null,   null,      6,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,      4,   null,      5,   null,   null,   null,   null,   null,      9,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,      8,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null],
+		                                [null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null,   null]],
+
+		         questions_across: [	  "2. When a program stops execution to display a message for the user to type an input.",
+		                                  "3. Number represented by 100010 (in words)",
+										  "4. Output:",
+										  "a=True",
+										  "b=False",
+										  "c=False",
+										  "if a or b and c:",
+										  "		print(CODE)",
+										  "else:",
+										  "		print(BLANK)",
+										  "8. What is the value of sum:",
+										  "sum=0",
+										  "for i in range(5):",
+										  "		sum=sum+i",
+		                                  "9. Instruction to take user values",
+		                                  ],
+
+		         questions_down: [		 "1. Loop that performs at least one iterarion irrespective of the condition",
+		                                 "4. Statement that checks for a condition and accordingly skips or executes a sequence of statements.",
+		                                 "5. Keyword used to define a function.",
+		                                 "6. Give the solution in words: 2*3**2 + 2",
+		                                 "7. A program that has good syntax but mistake in the order of statement is called _____ error."]
+
+	};
+
+
+		cwp_nmsp.activateCWP(document.getElementById("myPuzzle"),false,options);
