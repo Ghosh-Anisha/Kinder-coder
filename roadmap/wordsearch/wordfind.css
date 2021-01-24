@@ -37,6 +37,9 @@ body {
     }
   }
   
+  .modal-body{
+    colour: black;
+  }
   /*Styling for puzzle*/
   #puzzle {
     display: inline-block;
@@ -161,4 +164,8 @@ body {
   
   #result-message {
     font-size: 1.2em;
+  }
+
+  .modal-body{
+    colour: #051937 
   }
