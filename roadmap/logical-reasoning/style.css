@@ -74,3 +74,13 @@ ul {
     display:none;
     width: 90px;
 }
+
+.modal-btn{
+	background-color: #051937; 
+	right: 30px;
+}
+
+h5, .modal-btn:hover {
+	color: #051937;
+}
+}
