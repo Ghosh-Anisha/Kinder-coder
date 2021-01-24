@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
 
+html {
+  scroll-behavior: smooth;
+}
+
 #title {
   background-color: #051937;
 }
