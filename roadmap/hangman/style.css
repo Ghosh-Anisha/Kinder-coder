@@ -48,10 +48,10 @@ p{
 	line-height: 1.5;
 }
 
-#reset-btn{
-  margin-top : 20px;
+.btn-modal{
+  font-size: 12px;
 }
 
-.btn:hover {
-  background-color: gray;
+h5, .modal-body{
+  color: #051937;
 }
