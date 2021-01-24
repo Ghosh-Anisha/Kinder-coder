@@ -24,7 +24,6 @@
       }
     }
   }
-
   // listen for events
   window.addEventListener("load", callbackFunc);
   window.addEventListener("resize", callbackFunc);
@@ -32,5 +31,6 @@
 
 
 })();
+
 
 
