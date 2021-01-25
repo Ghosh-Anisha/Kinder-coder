@@ -55,7 +55,7 @@ h1 {
 
 /*Separator*/
 .sep {
-  height: 10vh;
+  height: 8vh;
 }
 
 /*Part mid section*/
@@ -270,8 +270,27 @@ a:hover{
     text-align: center;
   }
 
+  .container-fluid {
+  padding: 3% 10% 9%;
+  height: 565px;
+}
+
+.sep{
+  height: 4vh;
+}
+
   .titleimg {
     position: static;
-    transform: rotate(0);
+    width: 40%;
+
+    /*transform: rotate(0);*/
   }
+
+  .col-lg-6{
+    padding-bottom: 20px;
+  }
+}
+
+.explore{
+  font-size: 20px;
 }
